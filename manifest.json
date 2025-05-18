@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "BizBuySell DSCR Enhancer",
+  "version": "1.0",
+  "description": "Injects DSCR and Net Monthly Income into BizBuySell listings.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://www.bizbuysell.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
